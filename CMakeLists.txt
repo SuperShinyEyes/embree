@@ -111,7 +111,7 @@ ELSE()
   SET(EMBREE_LIB_TYPE SHARED)
 ENDIF()
 
-OPTION(EMBREE_ISPC_SUPPORT "Build Embree with support for ISPC applications." ON)
+OPTION(EMBREE_ISPC_SUPPORT "Build Embree with support for ISPC applications." OFF)
 OPTION(EMBREE_TUTORIALS    "Enable to build Embree tutorials" ON)
 
 ##############################################################################
